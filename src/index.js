@@ -1,0 +1,2 @@
+const timeModifier = require('./timeModifier');
+
