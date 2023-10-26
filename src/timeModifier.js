@@ -62,4 +62,16 @@ function timeModifier(pattern) {
 
 }
 
+/* FUTURE WORK
+Make now() actually return now with tests working
+Implement the @ snap operator
+Be able to parse dates that are not now(), perhaps using UTC Z as the breakpoint
+Multiple operators and time units
+Handle seconds, minutes and hours
+Fix the bug where the function loses an hour when crossing GMT/BST boundary
+Process month as 'mon' not 'm'
+MORE TESTS
+...
+*/
+
 module.exports = { timeModifier, parsePattern, calculateNewAmount };
